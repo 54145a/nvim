@@ -5,7 +5,7 @@
     "lazyvim.plugins.extras.lang.cmake",
     "lazyvim.plugins.extras.lang.json",
     "lazyvim.plugins.extras.lang.markdown",
-    "lazyvim.plugins.extras.lang.typescript.vtsls"
+    "lazyvim.plugins.extras.lang.typescript.tsgo"
   ],
   "install_version": 8,
   "news": {
