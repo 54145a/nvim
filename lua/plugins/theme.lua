@@ -2,21 +2,14 @@ return {
   {
     "folke/tokyonight.nvim",
     opts = {
-      style = "night",
-      light_style = "day",
+      on_colors = function(colors)
+        if vim.o.background == "dark" then
+          colors.bg = "NONE"
+        end
+      end,
     },
-  },
-  {
-    "LazyVim/LazyVim",
-    opts = {},
   },
   {
     "f-person/auto-dark-mode.nvim",
-    opts = {
-      set_light_mode = function()
-        vim.o.background = "light"
-        vim.cmd("colorscheme tokyonight")
-      end,
-    },
   },
 }
