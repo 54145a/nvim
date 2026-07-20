@@ -4,7 +4,7 @@ return {
     opts = {
       on_colors = function(colors)
         if vim.o.background == "dark" then
-          colors.bg = "NONE"
+          --colors.bg = "NONE"
         end
       end,
     },
