@@ -1,11 +1,7 @@
 return {
 	{
 		"folke/tokyonight.nvim",
-		opts = {
-			on_colors = function(colors)
-				colors.bg = "NONE"
-			end,
-		},
+		opts = {},
 	},
 	{
 		"f-person/auto-dark-mode.nvim",
