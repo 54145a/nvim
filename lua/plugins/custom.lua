@@ -1,11 +1,9 @@
 return {
 	{
-		"folke/tokyonight.nvim",
-		opts = {},
-	},
-	{
-		"f-person/auto-dark-mode.nvim",
-		opts = {},
+	  "LazyVim/LazyVim",
+		opts = {
+			colorscheme = "default",
+		},
 	},
 	{
 		"lambdalisue/suda.vim",
