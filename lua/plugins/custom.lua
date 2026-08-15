@@ -12,9 +12,9 @@ return {
 		cmd = { "SudaRead", "SudaWrite" },
 	},
 	{
-		--"github/copilot.vim",
+		"github/copilot.vim",
 	},
 	{
 	 "tpope/vim-sleuth",
-	},
+	}
 }
