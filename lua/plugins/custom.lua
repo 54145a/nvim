@@ -6,10 +6,6 @@ return {
 		},
 	},
 	{
-		"folke/noice.nvim",
-		enabled = false
-	},
-	{
 		"lambdalisue/suda.vim",
 		cmd = { "SudaRead", "SudaWrite" },
 	},

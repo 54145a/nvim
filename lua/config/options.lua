@@ -3,6 +3,7 @@
 -- Add any additional options here
 
 vim.opt.expandtab = false
+vim.g.snacks_animate = false
 
 -- https://github.com/LazyVim/LazyVim/discussions/4602
 if vim.env.SSH_TTY then
