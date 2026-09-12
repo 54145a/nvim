@@ -6,20 +6,4 @@ vim.opt.expandtab = false
 vim.g.snacks_animate = false
 
 -- https://github.com/LazyVim/LazyVim/discussions/4602
-if vim.env.SSH_TTY then
-  vim.opt.clipboard:append("unnamedplus")
-  local function paste()
-    return vim.split(vim.fn.getreg(""), "\n")
-  end
-  vim.g.clipboard = {
-    name = "OSC 52",
-    copy = {
-      ["+"] = require("vim.ui.clipboard.osc52").copy("+"),
-      ["*"] = require("vim.ui.clipboard.osc52").copy("*"),
-    },
-    paste = {
-      ["+"] = paste,
-      ["*"] = paste,
-    },
-  }
-end
+vim.opt.clipboard = "unnamedplus"
