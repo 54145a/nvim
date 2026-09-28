@@ -7,3 +7,4 @@ vim.g.snacks_animate = false
 
 -- https://github.com/LazyVim/LazyVim/discussions/4602
 vim.opt.clipboard = "unnamedplus"
+vim.g.lazyvim_python_lsp = "ty"
